@@ -290,7 +290,6 @@ html,body{
     background: #00d8d5;
     border: 1px solid #00d8d5;
 }/*book-btn*/
-
 /*-------------------------------------
 		3. 	About
 --------------------------------------*/
@@ -1553,5 +1552,7 @@ html,body{
 
 }
 
-
+section#img-header {
+    filter: contrast(50%);
+}
 /*========================Thank you=================*/
