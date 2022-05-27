@@ -14,7 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>RatuTour - Destination</title>
+		<title>RatuTour - Special Offer</title>
 
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
+								<a href="index.php">
 									ratu<span>Tour</span>
 								</a>
 							</div><!-- /.logo-->
@@ -99,11 +99,11 @@
 								</div>/.navbar-collapse -->
 								<div class="collapse navbar-collapse">		  
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="index.html">home</a></li>
-										<!-- <li><a href="destination.html">destination</a></li> -->
-										<li><a href="package.html">destination</a></li>
-										<li><a href="special-offer.html">special offer</a></li>
-										<!-- <li><a href="blog.html">blog</a></li> -->
+										<li><a href="index.php">home</a></li>
+										<!-- <li><a href="destination.php">destination</a></li> -->
+										<li><a href="package.php">destination</a></li>
+										<li><a href="special-offer.php">special offer</a></li>
+										<!-- <li><a href="blog.php">blog</a></li> -->
 									</ul>
 								</div>
 							</div><!-- /.main-menu-->
@@ -120,40 +120,16 @@
 			<img src="./assets/images/header.png" class="img-responsive" alt="">
 		</section>
 
-		<!--packages start-->
-		<section id="pack" class="packages">
+		<!--special-offer start-->
+		<section id="spo" class="special-offer">
 			<div class="container">
-				<div class="gallary-header text-center">
-					<h2>
-						Top Destination
-					</h2>
-					<p>
-						Pilihan Terbaik Keluarga  
-					</p>
-				</div><!--/.gallery-header-->
-				<div class="packages-content">
+				<div class="special-offer-content">
 					<div class="row">
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="assets/images/packages/p1.jpg" alt="package-place" style="width: 370px; height: 300px">
-								<div class="single-package-item-txt">
-									<h3>bromo <span class="pull-right">IDR 3.550.000 ,-</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
+						<div class="col-sm-8">
+							<div class="single-special-offer">
+								<div class="single-special-offer-txt">
+									<h2>pangandaran</h2>
+									<div class="packages-review special-offer-review">
 										<p>
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -163,139 +139,63 @@
 											<span>2544 review</span>
 										</p>
 									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="assets/images/packages/p2.jpg" alt="package-place" style="width: 370px; height: 300px">
-								<div class="single-package-item-txt">
-									<h3>pangandaran <span class="pull-right">IDR 1.399.000 ,-</span></h3>
-									<div class="packages-para">
+									<div class="packages-para special-offer-para">
 										<p>
 											<span>
 												<i class="fa fa-angle-right"></i> 5 daays 6 nights
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<span>
+												<i class="fa fa-angle-right"></i> 2 person
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i>  5 star accomodation
+											</span>
 										</p>
 										<p>
 											<span>
 												<i class="fa fa-angle-right"></i>  transportation
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
+											<span>
+												<i class="fa fa-angle-right"></i>  food facilities
+											</span>  
+										</p>
+										<p class="offer-para">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										</p>
 									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
+									<div class="offer-btn-group">
+										<div class="about-btn">
+											<button  class="about-view packages-btn offfer-btn">
+												make tour
+											</button>
+										</div><!--/.about-btn-->
+										<div class="about-btn">
+											<button  class="about-view packages-btn">
+												book now
+											</button>
+										</div><!--/.about-btn-->
+									</div><!--/.offer-btn-group-->
+								</div><!--/.single-special-offer-txt-->
+							</div><!--/.single-special-offer-->
 						</div><!--/.col-->
-						
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="assets/images/packages/p3.jpeg" alt="package-place" style="width: 370px; height: 300px">
-								<div class="single-package-item-txt">
-									<h3>yogyakarta <span class="pull-right">IDR 780.000 ,-</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
+						<div class="col-sm-4">
+							<div class="single-special-offer text-center">
+								<div class="single-special-offer-bg">
+									<img src="assets/images/offer/offer-shape.png" alt="offer-shape">
+								</div><!--/.single-special-offer-bg-->
+								<div class="single-special-shape-txt">
+									<h3>special offer</h3>
+									<h4><span>40%</span><br>off</h4>
+									<p><span>999 ribu</span><br>reguler 1.6 juta</p>
+								</div><!--/.single-special-shape-txt-->
+							</div><!--/.single-special-offer-->
 						</div><!--/.col-->
-						
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="assets/images/packages/p4.jpg" alt="package-place" style="width: 370px; height: 300px">
-								<div class="single-package-item-txt">
-									<h3>dufan <span class="pull-right">IDR 350.000 ,-</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-						
 					</div><!--/.row-->
-				</div><!--/.packages-content-->
+				</div><!--/.special-offer-content-->
 			</div><!--/.container-->
 
-		</section><!--/.packages-->
-		<!--packages end-->
+		</section><!--/.special-offer end-->
+		<!--special-offer end-->
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -306,7 +206,7 @@
 						<div class="col-sm-3">
 							<div class="single-footer-item">
 								<div class="footer-logo text-center">
-									<a href="index.html">
+									<a href="index.php">
 										<img src="./assets/logo/logo-ratu.png" width="150" alt="">
 									</a>
 									<p>
@@ -320,10 +220,10 @@
 							<div class="single-footer-item">
 								<h2>link</h2>
 								<div class="single-footer-txt">
-									<p><a href="index.html">home</a></p>
-									<p><a href="package.html">destination</a></p>
+									<p><a href="index.php">home</a></p>
+									<p><a href="package.php">destination</a></p>
 									<!-- <p><a href="#">spacial packages</a></p> -->
-									<p><a href="special-offer.html">special offers</a></p>
+									<p><a href="special-offer.php">special offers</a></p>
 									<!-- <p><a href="#">blog</a></p> -->
 									<!-- <p><a href="#">contacts</a></p> -->
 								</div><!--/.single-footer-txt-->
@@ -374,6 +274,8 @@
 
 		</footer><!-- /.footer-copyright-->
 		<!-- footer-copyright end -->
+
+
 
 
 		<script src="assets/js/jquery.js"></script>

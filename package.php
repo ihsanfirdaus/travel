@@ -14,7 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>RatuTour - Home</title>
+		<title>RatuTour - Destination</title>
 
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
+								<a href="index.php">
 									ratu<span>Tour</span>
 								</a>
 							</div><!-- /.logo-->
@@ -99,11 +99,11 @@
 								</div>/.navbar-collapse -->
 								<div class="collapse navbar-collapse">		  
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="index.html">home</a></li>
-										<!-- <li><a href="destination.html">destination</a></li> -->
-										<li><a href="package.html">destination</a></li>
-										<li><a href="special-offer.html">special offer</a></li>
-										<!-- <li><a href="blog.html">blog</a></li> -->
+										<li><a href="index.php">home</a></li>
+										<!-- <li><a href="destination.php">destination</a></li> -->
+										<li><a href="package.php">destination</a></li>
+										<li><a href="special-offer.php">special offer</a></li>
+										<!-- <li><a href="blog.php">blog</a></li> -->
 									</ul>
 								</div>
 							</div><!-- /.main-menu-->
@@ -112,76 +112,190 @@
 					<div class="home-border"></div><!-- /.home-border-->
 				</div><!-- /.container-->
 			</div><!-- /.header-area -->
+
 		</header><!-- /.top-area-->
 		<!-- main-menu End -->
 
-		
-		<!--about-us start -->
 		<section id="img-header">
 			<img src="./assets/images/header.png" class="img-responsive" alt="">
 		</section>
-		<!-- about-us end -->
 
-        <!--service start-->
-		<section id="service" class="service">
+		<!--packages start-->
+		<section id="pack" class="packages">
 			<div class="container">
+				<div class="gallary-header text-center">
+					<h2>
+						Top Destination
+					</h2>
+					<p>
+						Pilihan Terbaik Keluarga  
+					</p>
+				</div><!--/.gallery-header-->
+				<div class="packages-content">
+					<div class="row">
 
-				<div class="service-counter text-center">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p1.jpg" alt="package-place" style="width: 370px; height: 300px">
+								<div class="single-package-item-txt">
+									<h3>bromo <span class="pull-right">IDR 3.550.000 ,-</span></h3>
+									<div class="packages-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+											</span>
+											<i class="fa fa-angle-right"></i>  5 star accomodation
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  transportation
+											</span>
+											<i class="fa fa-angle-right"></i>  food facilities
+										 </p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 review</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button  class="about-view packages-btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="assets/images/service/s1.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-									amazing tour packages
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
+						</div><!--/.col-->
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="assets/images/service/s2.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-										book top class hotel
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p2.jpg" alt="package-place" style="width: 370px; height: 300px">
+								<div class="single-package-item-txt">
+									<h3>pangandaran <span class="pull-right">IDR 1.399.000 ,-</span></h3>
+									<div class="packages-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+											</span>
+											<i class="fa fa-angle-right"></i>  5 star accomodation
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  transportation
+											</span>
+											<i class="fa fa-angle-right"></i>  food facilities
+										 </p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 review</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button  class="about-view packages-btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="statistics-img">
-								<img src="assets/images/service/s3.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
+						</div><!--/.col-->
+						
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p3.jpeg" alt="package-place" style="width: 370px; height: 300px">
+								<div class="single-package-item-txt">
+									<h3>yogyakarta <span class="pull-right">IDR 780.000 ,-</span></h3>
+									<div class="packages-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+											</span>
+											<i class="fa fa-angle-right"></i>  5 star accomodation
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  transportation
+											</span>
+											<i class="fa fa-angle-right"></i>  food facilities
+										 </p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 review</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button  class="about-view packages-btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
 
-								<h2>
-									<a href="#">
-										online flight booking
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
+						</div><!--/.col-->
+						
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p4.jpg" alt="package-place" style="width: 370px; height: 300px">
+								<div class="single-package-item-txt">
+									<h3>dufan <span class="pull-right">IDR 350.000 ,-</span></h3>
+									<div class="packages-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+											</span>
+											<i class="fa fa-angle-right"></i>  5 star accomodation
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  transportation
+											</span>
+											<i class="fa fa-angle-right"></i>  food facilities
+										 </p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 review</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button  class="about-view packages-btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
 
-				</div><!--/.statistics-counter-->	
+						</div><!--/.col-->
+						
+					</div><!--/.row-->
+				</div><!--/.packages-content-->
 			</div><!--/.container-->
 
-		</section><!--/.service-->
-		<!--service end-->
+		</section><!--/.packages-->
+		<!--packages end-->
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -192,7 +306,7 @@
 						<div class="col-sm-3">
 							<div class="single-footer-item">
 								<div class="footer-logo text-center">
-									<a href="index.html">
+									<a href="index.php">
 										<img src="./assets/logo/logo-ratu.png" width="150" alt="">
 									</a>
 									<p>
@@ -206,10 +320,10 @@
 							<div class="single-footer-item">
 								<h2>link</h2>
 								<div class="single-footer-txt">
-									<p><a href="index.html">home</a></p>
-									<p><a href="package.html">destination</a></p>
+									<p><a href="index.php">home</a></p>
+									<p><a href="package.php">destination</a></p>
 									<!-- <p><a href="#">spacial packages</a></p> -->
-									<p><a href="special-offer.html">special offers</a></p>
+									<p><a href="special-offer.php">special offers</a></p>
 									<!-- <p><a href="#">blog</a></p> -->
 									<!-- <p><a href="#">contacts</a></p> -->
 								</div><!--/.single-footer-txt-->
@@ -250,7 +364,7 @@
 		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
 		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
 		        	</ul>
-		        	<p>&copy; 2022 <a href="#">RatuTour</a>. All Right Reserved</p>
+					<p>&copy; 2022 <a href="#">RatuTour</a>. All Right Reserved</p>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">
@@ -260,8 +374,6 @@
 
 		</footer><!-- /.footer-copyright-->
 		<!-- footer-copyright end -->
-
-
 
 
 		<script src="assets/js/jquery.js"></script>

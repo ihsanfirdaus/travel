@@ -14,7 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>RatuTour - Special Offer</title>
+		<title>RatuTour - Home</title>
 
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
+								<a href="index.php">
 									ratu<span>Tour</span>
 								</a>
 							</div><!-- /.logo-->
@@ -99,11 +99,11 @@
 								</div>/.navbar-collapse -->
 								<div class="collapse navbar-collapse">		  
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="index.html">home</a></li>
-										<!-- <li><a href="destination.html">destination</a></li> -->
-										<li><a href="package.html">destination</a></li>
-										<li><a href="special-offer.html">special offer</a></li>
-										<!-- <li><a href="blog.html">blog</a></li> -->
+										<li><a href="index.php">home</a></li>
+										<!-- <li><a href="destination.php">destination</a></li> -->
+										<li><a href="package.php">destination</a></li>
+										<li><a href="special-offer.php">special offer</a></li>
+										<!-- <li><a href="blog.php">blog</a></li> -->
 									</ul>
 								</div>
 							</div><!-- /.main-menu-->
@@ -112,90 +112,76 @@
 					<div class="home-border"></div><!-- /.home-border-->
 				</div><!-- /.container-->
 			</div><!-- /.header-area -->
-
 		</header><!-- /.top-area-->
 		<!-- main-menu End -->
 
+		
+		<!--about-us start -->
 		<section id="img-header">
 			<img src="./assets/images/header.png" class="img-responsive" alt="">
 		</section>
+		<!-- about-us end -->
 
-		<!--special-offer start-->
-		<section id="spo" class="special-offer">
+        <!--service start-->
+		<section id="service" class="service">
 			<div class="container">
-				<div class="special-offer-content">
-					<div class="row">
-						<div class="col-sm-8">
-							<div class="single-special-offer">
-								<div class="single-special-offer-txt">
-									<h2>pangandaran</h2>
-									<div class="packages-review special-offer-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="packages-para special-offer-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i> 2 person
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  5 star accomodation
-											</span>
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  food facilities
-											</span>  
-										</p>
-										<p class="offer-para">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-										</p>
-									</div><!--/.packages-para-->
-									<div class="offer-btn-group">
-										<div class="about-btn">
-											<button  class="about-view packages-btn offfer-btn">
-												make tour
-											</button>
-										</div><!--/.about-btn-->
-										<div class="about-btn">
-											<button  class="about-view packages-btn">
-												book now
-											</button>
-										</div><!--/.about-btn-->
-									</div><!--/.offer-btn-group-->
-								</div><!--/.single-special-offer-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-						<div class="col-sm-4">
-							<div class="single-special-offer text-center">
-								<div class="single-special-offer-bg">
-									<img src="assets/images/offer/offer-shape.png" alt="offer-shape">
-								</div><!--/.single-special-offer-bg-->
-								<div class="single-special-shape-txt">
-									<h3>special offer</h3>
-									<h4><span>40%</span><br>off</h4>
-									<p><span>999 ribu</span><br>reguler 1.6 juta</p>
-								</div><!--/.single-special-shape-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.special-offer-content-->
+
+				<div class="service-counter text-center">
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s1.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+									amazing tour packages
+									</a>
+								</h2>
+								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s2.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+										book top class hotel
+									</a>
+								</h2>
+								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="statistics-img">
+								<img src="assets/images/service/s3.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+
+								<h2>
+									<a href="#">
+										online flight booking
+									</a>
+								</h2>
+								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+				</div><!--/.statistics-counter-->	
 			</div><!--/.container-->
 
-		</section><!--/.special-offer end-->
-		<!--special-offer end-->
+		</section><!--/.service-->
+		<!--service end-->
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -206,7 +192,7 @@
 						<div class="col-sm-3">
 							<div class="single-footer-item">
 								<div class="footer-logo text-center">
-									<a href="index.html">
+									<a href="index.php">
 										<img src="./assets/logo/logo-ratu.png" width="150" alt="">
 									</a>
 									<p>
@@ -220,10 +206,10 @@
 							<div class="single-footer-item">
 								<h2>link</h2>
 								<div class="single-footer-txt">
-									<p><a href="index.html">home</a></p>
-									<p><a href="package.html">destination</a></p>
+									<p><a href="index.php">home</a></p>
+									<p><a href="package.php">destination</a></p>
 									<!-- <p><a href="#">spacial packages</a></p> -->
-									<p><a href="special-offer.html">special offers</a></p>
+									<p><a href="special-offer.php">special offers</a></p>
 									<!-- <p><a href="#">blog</a></p> -->
 									<!-- <p><a href="#">contacts</a></p> -->
 								</div><!--/.single-footer-txt-->
@@ -264,7 +250,7 @@
 		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
 		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
 		        	</ul>
-					<p>&copy; 2022 <a href="#">RatuTour</a>. All Right Reserved</p>
+		        	<p>&copy; 2022 <a href="#">RatuTour</a>. All Right Reserved</p>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">
