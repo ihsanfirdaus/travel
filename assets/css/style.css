@@ -1407,7 +1407,7 @@ html,body{
 
 /*footer-logo*/
 .footer-logo {
-    padding-top: 76px;
+    /* padding-top: 76px; */
 }
 .footer-logo a, .footer-logo a:hover,.footer-logo a:focus {
     color: #565a5c;
